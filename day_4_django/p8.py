@@ -10,7 +10,7 @@ class GameDataOperations:
         conn = pymysql.Connect(
             host='localhost', port=3306,
             user='root', password='root123',
-            db='purushotham_db', charset='utf8')
+            db='shreyas_db', charset='utf8')
         print('Database connected successfully')
         return conn
 
